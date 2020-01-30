@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Body = props => {
+const Body = ({ color }) => {
   const bodyStyle = {
     position: "absolute",
     width: "200px",
