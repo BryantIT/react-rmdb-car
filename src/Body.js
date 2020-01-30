@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Body = ({ color }) => {
+const Body = props => {
   const bodyStyle = {
     position: "absolute",
     width: "200px",
-    height: "400px", 
+    height: "400px",
     background: color,
     borderRadius: "40px",
     left: "155px",
