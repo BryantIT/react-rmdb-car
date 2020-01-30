@@ -8,9 +8,9 @@ const Car = () => {
   // _setColor isn't used but is an example of a state setter
   const [color, _setColor] = useState("blue");
 
+  // These are props
   return (
   <>
-  //These are props
     <Wheel wheelPositionLeft="90px" wheelPositionTop="100px" />
     <Wheel wheelPositionLeft="90px" wheelPositionTop="300px" />
     <Body color={color} />
